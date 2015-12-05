@@ -2,11 +2,16 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8"/>
+    <meta name="description" content="Website for me to test web development" />
     <title>My Website</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="message.js"></script>
   </head>
   <body>
-    <h1>Christian Sucks Hard Cock</h1>
-    <p></p>
+    <p id="display"></p>
+    <form name="getMessage" id="getMessage" autocomplete="off" method="GetMessage" return false>
+      <label for="message" class="message">Message:</label><br />
+      <input type="text" name="message" id="message" size="64" maxlength="128" placeholder="Enter message" title="" />
+    </form>
   </body>
 </html>
